@@ -118,6 +118,7 @@ body{
 .menu{
     width: 557px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     align-content: flex-end;
@@ -672,15 +673,10 @@ body{
 
 
     .menu{
-        position: absolute;
-        top: 0;
-        right: 0;
-        flex-direction: column;
+        display: none;
+        
     }
 
-    .menu-item{
-        display: none;
-    }
 
     .hamburger{
         display: block;
@@ -689,7 +685,19 @@ body{
 
 
     .responsive{
-        display: block !important;
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 199;
+        align-items: flex-end;
+
+        &>*{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+    .logo--header{
+        align-self: flex-start;
     }
 
 }
