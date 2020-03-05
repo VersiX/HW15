@@ -103,6 +103,7 @@ body {
 
 .header-top {
   width: 100%;
+  padding: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,6 +165,7 @@ body {
   font-weight: bold;
   text-align: right;
   text-transform: uppercase;
+  margin: 15px;
 }
 
 .menu__link {
@@ -186,7 +188,7 @@ body {
   width: 42px;
   line-height: 0.75;
   position: absolute;
-  top: 13px;
+  top: 25px;
   right: 15px;
 }
 
@@ -306,6 +308,7 @@ body {
 
 .img-aside {
   width: 100%;
+  height: auto;
   max-width: 60vw;
   display: block;
 }

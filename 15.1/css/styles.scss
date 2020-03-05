@@ -89,6 +89,7 @@ body{
 
     &-top{
         width: 100%;
+        padding: 15px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -133,6 +134,7 @@ body{
         font-weight: bold;
         text-align: right;
         text-transform: uppercase;
+        margin: 15px;
     }
 
     &__link{
@@ -157,7 +159,7 @@ body{
     width: 42px;
     line-height: 0.75;
     position: absolute;
-    top: 13px;
+    top: 25px;
     right: 15px;
 
     &:hover{
@@ -268,6 +270,7 @@ body{
 
 .img-aside{
     width: 100%;
+    height: auto;
     max-width: 60vw;
     display: block;
 }
