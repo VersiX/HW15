@@ -9,6 +9,11 @@ $font-title-medium: 900 60px "Raleway";
 $font-title-big: bold 60px "Raleway";
 $font-article: 300 17px "Raleway";
 
+html, body {
+
+    width: -webkit-calc(100% - 0px);
+
+}
 
 body{
     margin: 0;
