@@ -426,28 +426,24 @@ body {
   font-size: 15px;
   font-family: "Raleway";
   color: rgba(38, 38, 38, 0.502);
-  line-height: 55px;
 }
 
 .subscribe-input:-ms-input-placeholder {
   font-size: 15px;
   font-family: "Raleway";
   color: rgba(38, 38, 38, 0.502);
-  line-height: 55px;
 }
 
 .subscribe-input::-ms-input-placeholder {
   font-size: 15px;
   font-family: "Raleway";
   color: rgba(38, 38, 38, 0.502);
-  line-height: 55px;
 }
 
 .subscribe-input::placeholder {
   font-size: 15px;
   font-family: "Raleway";
   color: rgba(38, 38, 38, 0.502);
-  line-height: 55px;
 }
 
 .row-lg-2 {
