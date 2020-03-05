@@ -155,7 +155,7 @@ body{
     font-size: 42px;
     height: 42px;
     width: 42px;
-    line-height: 1;
+    line-height: 0.75;
     position: absolute;
     top: 13px;
     right: 15px;
@@ -701,6 +701,8 @@ body{
         flex-direction: column;
         z-index: 199;
         align-items: flex-end;
+
+        transition: all 0.5s ease;
 
         &>*{
             margin: 15px;

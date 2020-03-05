@@ -184,7 +184,7 @@ body {
   font-size: 42px;
   height: 42px;
   width: 42px;
-  line-height: 1;
+  line-height: 0.75;
   position: absolute;
   top: 13px;
   right: 15px;
@@ -697,6 +697,8 @@ body {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .responsive > * {
     margin: 15px;
