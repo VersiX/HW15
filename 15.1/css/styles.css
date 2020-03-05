@@ -31,10 +31,6 @@
   width: device-width;
 }
 
-html, body {
-  width: -webkit-calc(100% - 0px);
-}
-
 body {
   margin: 0;
 }
